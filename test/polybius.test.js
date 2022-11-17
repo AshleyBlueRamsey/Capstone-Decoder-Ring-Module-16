@@ -14,7 +14,7 @@ describe("polybius", () => {
         it("Should translate both 'i' and 'j' to 42", () => {
             const actualWithI = polybiusModule.polybius("thinkful");
             const actualWithJ = polybiusModule.polybius("thjnkful");
-            expect(acutalWithJ).to.equal(actualWithI);
+            expect(actualWithJ).to.equal(actualWithI);
         });
 
         it("Should ignore capital letters", () => {
